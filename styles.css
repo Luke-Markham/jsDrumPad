@@ -1,0 +1,52 @@
+html {
+  background: url(Images/main-bkg.png) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.keys {
+  position: absolute;
+  bottom: 13.5%;
+  left: 16%;
+  z-index: 2;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 15.5px;
+}
+
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  transition: all 0.05s ease;
+  text-align: center;
+  color: white;
+  background: #5a5e56;
+}
+
+.playing {
+  background: #6c74ee;
+  transform: scale(1.05);
+}
+
+.stop {
+  display: none;
+}

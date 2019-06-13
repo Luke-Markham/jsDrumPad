@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Drum pad</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <img class="mpd" src="Images/MPD32-large.png" />
+      <div class="keys">
+        <div data-key="81" class="key">
+          <kbd>Q</kbd>
+        </div>
+        <div data-key="87" class="key">
+          <kbd>W</kbd>
+        </div>
+        <div data-key="69" class="key">
+          <kbd>E</kbd>
+        </div>
+        <div data-key="82" class="key">
+          <kbd>R</kbd>
+        </div>
+        <div data-key="85" class="key">
+          <kbd>U</kbd>
+        </div>
+        <div data-key="73" class="key">
+          <kbd>I</kbd>
+        </div>
+        <div data-key="79" class="key">
+          <kbd>O</kbd>
+        </div>
+        <div data-key="80" class="key">
+          <kbd>P</kbd>
+        </div>
+        <div data-key="65" class="key">
+          <kbd>A</kbd>
+        </div>
+        <div data-key="83" class="key">
+          <kbd>S</kbd>
+        </div>
+        <div data-key="68" class="key">
+          <kbd>D</kbd>
+        </div>
+        <div data-key="70" class="key">
+          <kbd>F</kbd>
+        </div>
+        <div data-key="74" class="key">
+          <kbd>J</kbd>
+        </div>
+        <div data-key="75" class="key">
+          <kbd>K</kbd>
+        </div>
+        <div data-key="76" class="key">
+          <kbd>L</kbd>
+        </div>
+        <div data-key="186" class="key">
+          <kbd>;</kbd>
+        </div>
+        <div data-key="32" class="key stop">
+          <kbd>;</kbd>
+        </div>
+      </div>
+    </div>
+    <audio data-key="81" src="sounds/cymbal.WAV"></audio>
+    <audio data-key="87" src="sounds/kick.WAV"></audio>
+    <audio data-key="69" src="sounds/shake.WAV"></audio>
+    <audio data-key="82" src="sounds/snare.WAV"></audio>
+    <audio data-key="85" src="sounds/clap.WAV"></audio>
+    <audio data-key="73" src="sounds/closedHat.WAV"></audio>
+    <audio data-key="79" src="sounds/closedHat2.WAV"></audio>
+    <audio data-key="80" src="sounds/ride.WAV"></audio>
+    <audio data-key="65" src="sounds/loop1.wav"></audio>
+    <audio data-key="83" src="sounds/loop2.wav"></audio>
+    <audio data-key="68" src="sounds/loop3.wav"></audio>
+    <audio data-key="70" src="sounds/loop4.wav"></audio>
+    <audio data-key="74" src="sounds/bell1.wav"></audio>
+    <audio data-key="75" src="sounds/bell2.wav"></audio>
+    <audio data-key="76" src="sounds/vox1.wav"></audio>
+    <audio data-key="186" src="sounds/swell1.wav"></audio>
+
+    <script src="app.js"></script>
+  </body>
+</html>
